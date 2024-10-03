@@ -66,7 +66,7 @@ function Regsiter() {
     const initClient = () => {
       gapi.client.init({
         clientId: process.env.REACT_APP_CLIENT_ID,
-        scope: ''
+        // scope: ''
       });
     };
     gapi.load('client:auth2', initClient);
